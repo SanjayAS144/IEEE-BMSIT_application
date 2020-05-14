@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#366FCFC4"
+
+    tools:context=".ProfileActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/rectangle"
+        android:id="@+id/backimg"
+        android:scaleType="fitXY"
+        android:background="@drawable/xdback"
+
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:id="@+id/text"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="35dp"
+
+        android:fontFamily="@font/antic"
+        android:textColor="#FFFFFF"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/backimg"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="-40dp"
+
+        app:cardElevation="4dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:id="@+id/Profilename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/artifika"
+                android:text="Profile Name"
+                android:textSize="22sp"
+
+                />
+            <TextView
+                android:id="@+id/Status"
+                android:layout_below="@id/Profilename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/antic"
+                android:layout_marginTop="10dp"
+                android:text="I Am a Member of IEEE "
+                android:textSize="16sp"
+
+                />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Edit Profile Name"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:paddingRight="5dp"
+            android:id="@+id/profcgange"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:fontFamily="@font/antic"
+            android:textAlignment="viewStart"
+            android:paddingLeft="5dp"
+            android:drawablePadding="10dp"
+            android:background="@android:color/transparent"
+            android:layout_below="@id/Status"
+            />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Edit Image"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:paddingRight="5dp"
+                android:textStyle="normal"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:fontFamily="@font/antic"
+                android:textAlignment="viewStart"
+                android:paddingLeft="5dp"
+                android:id="@+id/imgchange"
+                android:drawablePadding="10dp"
+                android:background="@android:color/transparent"
+                android:layout_below="@id/profcgange"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Edit Status"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:paddingRight="5dp"
+                android:textStyle="normal"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:fontFamily="@font/antic"
+                android:textAlignment="viewStart"
+                android:paddingLeft="5dp"
+                android:drawablePadding="10dp"
+                android:id="@+id/statuschange"
+                android:background="@android:color/transparent"
+                android:layout_below="@id/imgchange"
+                />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/statuschange"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:id="@+id/backbtn"
+                android:background="@drawable/bt_uiborder"
+                android:src="@drawable/ic_keyboard_backspace_black_24dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/profile_avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/cv"
+        app:civ_border_width="0.5dp"
+        android:elevation="5dp"
+        android:layout_marginBottom="-15dp"
+        android:id="@+id/profile_image"
+
+
+        />
+
+
+
+
+
+
+</RelativeLayout>

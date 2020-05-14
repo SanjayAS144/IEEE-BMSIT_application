@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IEEE BMSIT</string>
+    <string name="are_you_a_member_of_ieee_committee">Are you a Member of IEEE Committee</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ieee_about_us">We are a team that is continuously trying to develop and create opportunities for growth and learning aligned with our objectives. Our success is achieved through dedication in thought, word and action, and our ethical conduct and sincerity of purpose, through our student branch, make us proud to be part of IEEE.</string>
+    <string name="about_us">About Us</string>
+    <string name="who_we_are">Who We Are</string>
+    <string name="ieee_family">IEEE Family</string>
+    <string name="ieee_student_branch_bmsit_m"><![CDATA[IEEE STUDENT BRANCH BMSIT&M]]></string>
+    <string name="ieee_features">• IEEE membership offers access to technical innovation, networking opportunities, and exclusive member benefits.\n• Build a platform to introduce careers in technology to students around the world.\n• Access to research, news, educational resources to expand expertise and stay current.\n• Get access to competitions, scholarships, awards, educational courses, certifications and conferences.</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="update_status">Update Status</string>
+
+</resources>

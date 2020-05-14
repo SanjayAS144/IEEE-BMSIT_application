@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#6576ff"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMSIT"
+        android:textSize="40dp"
+        android:visibility="invisible"
+        android:textColor="#ffd80c"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:id="@+id/bmsit"
+        android:fontFamily="@font/artifika"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:visibility="invisible"
+        android:id="@+id/ieeelogo"
+        android:src="@drawable/ieelogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/ieee"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:text="Welcome To IEEE "
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/artifika"
+        android:textColor="#fff"
+        android:layout_below="@id/ieeelogo"
+        android:layout_marginTop="50dp"/>
+</RelativeLayout>
